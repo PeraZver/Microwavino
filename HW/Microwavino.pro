@@ -1,4 +1,4 @@
-update=9/6/2017 9:03:17 PM
+update=07.09.2017 15:25:20
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -60,3 +58,5 @@ LibName28=contrib
 LibName29=valves
 LibName30=vna-cache
 LibName31=kicad_teensy-master/teensy
+[general]
+version=1

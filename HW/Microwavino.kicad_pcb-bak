@@ -263,7 +263,7 @@
   )
 
   (module VNA:C_0603b (layer F.Cu) (tedit 55A401E5) (tstamp 59B133CA)
-    (at 78.115 67.935 270)
+    (at 47.635 56.505 270)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /59B0EE84)
@@ -292,7 +292,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B133D6)
-    (at 215.275 91.43)
+    (at 184.795 80)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59B0EED2)
@@ -321,7 +321,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B133E2)
-    (at 224.165 90.795)
+    (at 193.685 79.365)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59B56EB8)
@@ -350,7 +350,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B133EE)
-    (at 231.15 90.795)
+    (at 200.67 79.365)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59B57575)
@@ -379,7 +379,7 @@
   )
 
   (module VNA:C_0603b (layer F.Cu) (tedit 55A401E5) (tstamp 59B133FA)
-    (at 84.465 67.935 270)
+    (at 53.985 56.505 270)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /59B0EE74)
@@ -408,7 +408,7 @@
   )
 
   (module VNA:C_0805b (layer F.Cu) (tedit 55A401FA) (tstamp 59B13406)
-    (at 215.91 84.445)
+    (at 185.43 73.015)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59B0EEC3)
@@ -437,7 +437,7 @@
   )
 
   (module VNA:C_0805b (layer F.Cu) (tedit 55A401FA) (tstamp 59B13412)
-    (at 224.165 84.445)
+    (at 193.685 73.015)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59B56EAC)
@@ -466,7 +466,7 @@
   )
 
   (module VNA:C_0805b (layer F.Cu) (tedit 55A401FA) (tstamp 59B1341E)
-    (at 231.785 84.445)
+    (at 201.305 73.015)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59B57569)
@@ -495,7 +495,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B1342A)
-    (at 95.895 71.745)
+    (at 65.415 60.315)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59A5D41A)
@@ -524,7 +524,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B13436)
-    (at 95.895 74.285)
+    (at 65.415 62.855)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59A5D419)
@@ -553,7 +553,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B13442)
-    (at 89.545 67.935 90)
+    (at 59.065 56.505 90)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59A5D44C)
@@ -582,7 +582,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B1344E)
-    (at 94.625 69.205 90)
+    (at 64.145 57.775 90)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59A5D418)
@@ -611,7 +611,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B1345A)
-    (at 88.19 69.84 180)
+    (at 57.71 58.41 180)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59B42F5F)
@@ -640,7 +640,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B13466)
-    (at 93.99 78.095)
+    (at 63.51 66.665)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59A5D439)
@@ -669,7 +669,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B13472)
-    (at 88.91 78.095 180)
+    (at 58.43 66.665 180)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59A5D43B)
@@ -698,7 +698,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B1347E)
-    (at 91.45 68.57)
+    (at 60.97 57.14)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59B42F47)
@@ -727,7 +727,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B1348A)
-    (at 95.26 76.825)
+    (at 64.78 65.395)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59A5D42F)
@@ -756,7 +756,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B13496)
-    (at 85.735 73.65 180)
+    (at 55.255 62.22 180)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59A5D431)
@@ -785,7 +785,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B134A2)
-    (at 91.45 69.84)
+    (at 60.97 58.41)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59B42F4D)
@@ -814,7 +814,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B134AE)
-    (at 95.26 75.555)
+    (at 64.78 64.125)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59A5D430)
@@ -843,7 +843,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B134BA)
-    (at 85.735 74.92 180)
+    (at 55.255 63.49 180)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59A5D432)
@@ -872,7 +872,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B134C6)
-    (at 84.465 76.825 90)
+    (at 53.985 65.395 90)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59A5D427)
@@ -901,7 +901,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B134D2)
-    (at 87.005 76.825 270)
+    (at 56.525 65.395 270)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59A5D425)
@@ -930,7 +930,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B134DE)
-    (at 86.37 78.73)
+    (at 55.89 67.3)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59A5D422)
@@ -959,7 +959,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B134EA)
-    (at 89.545 89.525 270)
+    (at 59.065 78.095 270)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59A5D42C)
@@ -988,7 +988,7 @@
   )
 
   (module VNA:C_0603b (layer F.Cu) (tedit 55A401E5) (tstamp 59B134F6)
-    (at 74.94 94.605 90)
+    (at 44.46 83.175 90)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /59B7F394)
@@ -1017,7 +1017,7 @@
   )
 
   (module VNA:C_0603b (layer F.Cu) (tedit 55A401E5) (tstamp 59B13502)
-    (at 87.005 94.605 90)
+    (at 56.525 83.175 90)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /59B8020B)
@@ -1046,7 +1046,7 @@
   )
 
   (module VNA:C_0402b (layer F.Cu) (tedit 55A40188) (tstamp 59B1350E)
-    (at 114.31 89.525 270)
+    (at 83.83 78.095 270)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /59B78ED7)
@@ -1075,7 +1075,7 @@
   )
 
   (module VNA:C_0603b (layer F.Cu) (tedit 55A401E5) (tstamp 59B1351A)
-    (at 99.705 94.605 90)
+    (at 69.225 83.175 90)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /59B80881)
@@ -1104,7 +1104,7 @@
   )
 
   (module VNA:C_0603b (layer F.Cu) (tedit 55A401E5) (tstamp 59B13526)
-    (at 112.405 94.605 90)
+    (at 81.925 83.175 90)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /59B80E2E)
@@ -1133,7 +1133,7 @@
   )
 
   (module VNA:LED_0603 (layer F.Cu) (tedit 57404998) (tstamp 59B13534)
-    (at 92.72 66.03)
+    (at 62.24 54.6)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /59B9119B)
@@ -1164,7 +1164,7 @@
   )
 
   (module VNA:C_0603b (layer F.Cu) (tedit 55A401E5) (tstamp 59B13540)
-    (at 215.275 82.54)
+    (at 184.795 71.11)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /59B42F6B)
@@ -1193,7 +1193,7 @@
   )
 
   (module VNA:C_0603b (layer F.Cu) (tedit 55A401E5) (tstamp 59B1354C)
-    (at 224.165 82.54)
+    (at 193.685 71.11)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /59A5D440)
@@ -1222,7 +1222,7 @@
   )
 
   (module VNA:C_0603b (layer F.Cu) (tedit 55A401E5) (tstamp 59B13558)
-    (at 231.785 82.54)
+    (at 201.305 71.11)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /59A5D43F)
@@ -1251,7 +1251,7 @@
   )
 
   (module VNA:CONSMA003.062 (layer F.Cu) (tedit 56A144FC) (tstamp 59B13575)
-    (at 74.5 103.015 270)
+    (at 44.02 91.585 270)
     (path /59B654DD)
     (fp_text reference P1 (at 0 7.62 270) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -1308,7 +1308,7 @@
   )
 
   (module VNA:CONSMA003.062 (layer F.Cu) (tedit 56A144FC) (tstamp 59B13592)
-    (at 87.2 103.015 270)
+    (at 56.72 91.585 270)
     (path /59B65743)
     (fp_text reference P2 (at 0 7.62 270) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -1365,7 +1365,7 @@
   )
 
   (module VNA:CONSMA003.062 (layer F.Cu) (tedit 56A144FC) (tstamp 59B135AF)
-    (at 99.9 103.015 270)
+    (at 69.42 91.585 270)
     (path /59B78EEA)
     (fp_text reference P3 (at 0 7.62 270) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -1422,7 +1422,7 @@
   )
 
   (module VNA:CONSMA003.062 (layer F.Cu) (tedit 56A144FC) (tstamp 59B135CC)
-    (at 112.6 103.015 270)
+    (at 82.12 91.585 270)
     (path /59B78EF7)
     (fp_text reference P4 (at 0 7.62 270) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -1479,7 +1479,7 @@
   )
 
   (module VNA:R_0402b (layer F.Cu) (tedit 55A401B2) (tstamp 59B135D8)
-    (at 95.895 73.015)
+    (at 65.415 61.585)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /59A5D41D)
@@ -1508,7 +1508,7 @@
   )
 
   (module VNA:R_0402b (layer F.Cu) (tedit 55A401B2) (tstamp 59B135E4)
-    (at 93.355 69.205 90)
+    (at 62.875 57.775 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /59B93573)
@@ -1537,7 +1537,7 @@
   )
 
   (module VNA:R_0402b (layer F.Cu) (tedit 55A401B2) (tstamp 59B135F0)
-    (at 81.925 76.825 90)
+    (at 51.445 65.395 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /59A5D429)
@@ -1566,7 +1566,7 @@
   )
 
   (module VNA:R_0402b (layer F.Cu) (tedit 55A401B2) (tstamp 59B135FC)
-    (at 83.195 76.825 90)
+    (at 52.715 65.395 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /59A5D428)
@@ -1595,7 +1595,7 @@
   )
 
   (module VNA:R_0402b (layer F.Cu) (tedit 55A401B2) (tstamp 59B13608)
-    (at 85.735 76.825 270)
+    (at 55.255 65.395 270)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /59A5D423)
@@ -1624,7 +1624,7 @@
   )
 
   (module VNA:R_0402b (layer F.Cu) (tedit 55A401B2) (tstamp 59B13614)
-    (at 87.64 88.89 180)
+    (at 57.16 77.46 180)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /59B749B2)
@@ -1653,7 +1653,7 @@
   )
 
   (module VNA:R_0402b (layer F.Cu) (tedit 55A401B2) (tstamp 59B13620)
-    (at 87.64 90.16)
+    (at 57.16 78.73)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /59B836B4)
@@ -1682,7 +1682,7 @@
   )
 
   (module VNA:R_0402b (layer F.Cu) (tedit 55A401B2) (tstamp 59B1362C)
-    (at 74.305 88.89)
+    (at 43.825 77.46)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /59A5D447)
@@ -1711,7 +1711,7 @@
   )
 
   (module VNA:R_0402b (layer F.Cu) (tedit 55A401B2) (tstamp 59B13638)
-    (at 112.405 88.89 180)
+    (at 81.925 77.46 180)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /59B78F05)
@@ -1740,7 +1740,7 @@
   )
 
   (module VNA:R_0402b (layer F.Cu) (tedit 55A401B2) (tstamp 59B13644)
-    (at 112.405 90.16)
+    (at 81.925 78.73)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /59B83E68)
@@ -1769,7 +1769,7 @@
   )
 
   (module VNA:R_0402b (layer F.Cu) (tedit 55A401B2) (tstamp 59B13650)
-    (at 99.255 88.89)
+    (at 68.775 77.46)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /59B78EE3)
@@ -1798,7 +1798,7 @@
   )
 
   (module VNA:R_0402b (layer F.Cu) (tedit 55A401B2) (tstamp 59B1365C)
-    (at 86.37 71.745 270)
+    (at 55.89 60.315 270)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /59B1334E)
@@ -1827,7 +1827,7 @@
   )
 
   (module VNA:SOT-23-5 (layer F.Cu) (tedit 55AA3491) (tstamp 59B13676)
-    (at 214.645 89.585)
+    (at 184.165 78.155)
     (path /59B0EEB5)
     (fp_text reference U2 (at 0 1.325) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1852,7 +1852,7 @@
   )
 
   (module VNA:SOT-23-5 (layer F.Cu) (tedit 55AA3491) (tstamp 59B13683)
-    (at 223.215 88.89)
+    (at 192.735 77.46)
     (path /59B56E9F)
     (fp_text reference U3 (at 0 1.325) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1877,7 +1877,7 @@
   )
 
   (module VNA:SOT-23-5 (layer F.Cu) (tedit 55AA3491) (tstamp 59B13690)
-    (at 230.52 88.95)
+    (at 200.04 77.52)
     (path /59B5755C)
     (fp_text reference U4 (at 0 1.325) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1902,7 +1902,7 @@
   )
 
   (module VNA:ASTRX-12 (layer F.Cu) (tedit 569A81B5) (tstamp 59B1369E)
-    (at 87.005 67.935)
+    (at 56.525 56.505)
     (path /59B0EE8D)
     (fp_text reference U5 (at 0.1 2) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
@@ -1926,7 +1926,7 @@
   )
 
   (module VNA:TQFN-32 (layer F.Cu) (tedit 564A3906) (tstamp 59B136D2)
-    (at 90.815 74.285)
+    (at 60.335 62.855)
     (path /59A5D417)
     (fp_text reference U6 (at 0.115 3.55) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.125)))
@@ -2027,7 +2027,7 @@
   )
 
   (module VNA:Teensy30_31_32_LC_modified (layer F.Cu) (tedit 59B14790) (tstamp 59B17679)
-    (at 184.425001 103.845)
+    (at 153.945001 92.415)
     (path /59B2C6E1)
     (fp_text reference U7 (at 0 -10.16) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2130,7 +2130,7 @@
   )
 
   (module VNA:SOT-23-5L (layer F.Cu) (tedit 55840FD3) (tstamp 59B1766D)
-    (at 80.26 66.999285 270)
+    (at 49.78 55.569285 270)
     (path /59B0EE7D)
     (fp_text reference U1 (at 1.1 1.4 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
