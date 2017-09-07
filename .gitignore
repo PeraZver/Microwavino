@@ -1,1 +1,5 @@
-HW/Datasheets/
+HW/Datasheets
+HW/*.bak 
+HW/*.xml
+HW/*.bck
+HW/*.dcm
