@@ -39,7 +39,7 @@ Sheet 1 1
 Title "Microwavino"
 Date "2017-08-29"
 Rev "01"
-Comp "Pero Krivic"
+Comp "Helentronica"
 Comment1 "Microwave synthesizer"
 Comment2 ""
 Comment3 ""
@@ -672,7 +672,6 @@ NoConn ~ 12400 3450
 NoConn ~ 12400 3550
 NoConn ~ 12400 3650
 NoConn ~ 12400 3750
-NoConn ~ 12400 3950
 NoConn ~ 12400 4150
 NoConn ~ 12400 4250
 NoConn ~ 12400 4350
@@ -788,23 +787,9 @@ Wire Wire Line
 Wire Wire Line
 	4600 6800 4600 7350
 Wire Wire Line
-	6000 7650 6000 7750
+	6000 7650 6000 7800
 Wire Wire Line
-	6000 7750 6000 7800
-Wire Wire Line
-	6000 7750 6100 7750
-Wire Wire Line
-	6100 7750 6200 7750
-Wire Wire Line
-	6200 7750 6300 7750
-Wire Wire Line
-	6300 7750 6400 7750
-Wire Wire Line
-	6400 7750 6500 7750
-Wire Wire Line
-	6500 7750 6600 7750
-Wire Wire Line
-	6600 7750 6700 7750
+	6000 7750 6700 7750
 Wire Wire Line
 	6100 7750 6100 7650
 Connection ~ 6000 7750
@@ -839,25 +824,19 @@ Wire Wire Line
 Wire Wire Line
 	4600 7650 4600 7700
 Wire Wire Line
-	8550 6700 8700 6700
-Wire Wire Line
-	8700 6700 8900 6700
+	8550 6700 8900 6700
 Wire Wire Line
 	8700 7000 8700 7050
 Connection ~ 8700 6700
 Wire Wire Line
-	8550 6150 8700 6150
-Wire Wire Line
-	8700 6150 9200 6150
+	8550 6150 9200 6150
 Wire Wire Line
 	8700 6150 8700 6100
 Connection ~ 8300 5800
 Wire Wire Line
 	8650 5800 8700 5800
 Wire Wire Line
-	8100 5800 8300 5800
-Wire Wire Line
-	8300 5800 8350 5800
+	8100 5800 8350 5800
 Wire Wire Line
 	8100 5800 8100 6200
 Wire Wire Line
@@ -890,36 +869,22 @@ Wire Wire Line
 Wire Wire Line
 	7400 5900 7550 5900
 Wire Wire Line
-	7400 6000 7450 6000
+	7400 6000 7550 6000
 Wire Wire Line
-	7450 6000 7550 6000
+	6450 4200 6450 5450
 Wire Wire Line
-	6450 4200 6450 5250
-Wire Wire Line
-	6450 5250 6450 5450
-Wire Wire Line
-	6650 3400 6650 5250
-Wire Wire Line
-	6650 5250 6650 5450
+	6650 3400 6650 5450
 Wire Wire Line
 	6650 5250 6550 5250
 Wire Wire Line
-	6250 4950 6250 5250
-Wire Wire Line
-	6250 5250 6250 5450
+	6250 4950 6250 5450
 Wire Wire Line
 	6150 5250 6150 5450
 Connection ~ 5950 4950
 Wire Wire Line
 	6450 5250 6350 5250
 Wire Wire Line
-	5300 4200 5450 4200
-Wire Wire Line
-	5450 4200 5700 4200
-Wire Wire Line
-	5700 4200 5950 4200
-Wire Wire Line
-	5950 4200 6450 4200
+	5300 4200 6450 4200
 Connection ~ 5950 4200
 Connection ~ 5700 4200
 Connection ~ 5700 4950
@@ -929,9 +894,7 @@ Connection ~ 2650 5900
 Wire Wire Line
 	2350 5850 2650 5850
 Wire Wire Line
-	2650 5850 2650 5900
-Wire Wire Line
-	2650 5900 2650 6000
+	2650 5850 2650 6000
 Wire Wire Line
 	2600 6300 2600 6100
 Wire Wire Line
@@ -954,11 +917,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 3600 2900 3650
 Wire Wire Line
-	3900 3400 4150 3400
-Wire Wire Line
-	4150 3400 4450 3400
-Wire Wire Line
-	4450 3400 4600 3400
+	3900 3400 4600 3400
 Connection ~ 4150 3400
 Wire Wire Line
 	2950 3500 2900 3500
@@ -983,13 +942,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 2750 10400 2750
 Wire Wire Line
-	5300 3400 5450 3400
-Wire Wire Line
-	5450 3400 5700 3400
-Wire Wire Line
-	5700 3400 5950 3400
-Wire Wire Line
-	5950 3400 6650 3400
+	5300 3400 6650 3400
 Connection ~ 5950 3400
 Connection ~ 5700 3400
 Connection ~ 5450 3400
@@ -1087,11 +1040,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 4400 2900 4450
 Wire Wire Line
-	3900 4200 4150 4200
-Wire Wire Line
-	4150 4200 4450 4200
-Wire Wire Line
-	4450 4200 4600 4200
+	3900 4200 4600 4200
 Connection ~ 4150 4200
 Wire Wire Line
 	2950 4300 2900 4300
@@ -1182,11 +1131,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 5150 2900 5200
 Wire Wire Line
-	3900 4950 4150 4950
-Wire Wire Line
-	4150 4950 4450 4950
-Wire Wire Line
-	4450 4950 4600 4950
+	3900 4950 4600 4950
 Connection ~ 4150 4950
 Wire Wire Line
 	2950 5050 2900 5050
@@ -1234,9 +1179,7 @@ F 3 "" H 11600 6950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	10200 6800 11000 6800
-Wire Wire Line
-	11000 6800 11050 6800
+	10200 6800 11050 6800
 Text Notes 10250 5800 0    60   ~ 0
 The device has dual differential open-collector \nRF outputs that require an external RF choke or a 50Ω resistor\nto supply for each output. If single-ended output\nis used, the unused output should be supplied and terminated in the same manner as the corresponding load. If a\ndifferential output is unused then those RFOUT pins should\nbe directly connected to VCC_RF (pin 16).
 Text Label 7500 7000 0    60   ~ 0
@@ -1267,9 +1210,7 @@ RF_OUTA_N
 Wire Wire Line
 	10800 6150 10800 6950
 Wire Wire Line
-	10550 6150 10800 6150
-Wire Wire Line
-	10800 6150 11000 6150
+	10550 6150 11000 6150
 Wire Wire Line
 	10550 6150 10550 6200
 Connection ~ 10800 6150
@@ -1277,9 +1218,7 @@ Wire Wire Line
 	11000 6800 11000 6600
 Connection ~ 11000 6800
 Wire Wire Line
-	10800 7250 10800 7450
-Wire Wire Line
-	10800 7450 10800 7650
+	10800 7250 10800 7650
 Connection ~ 10800 7450
 $Comp
 L C C28
@@ -1293,10 +1232,10 @@ F 3 "" H 12450 6350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L GND #PWR035
 U 1 1 59B78EDD
 P 12450 6500
-F 0 "#PWR036" H 12450 6250 50  0001 C CNN
+F 0 "#PWR035" H 12450 6250 50  0001 C CNN
 F 1 "GND" H 12450 6350 50  0000 C CNN
 F 2 "" H 12450 6500 60  0000 C CNN
 F 3 "" H 12450 6500 60  0000 C CNN
@@ -1336,24 +1275,22 @@ RF_OUTB_N
 Wire Wire Line
 	12700 6150 12700 6950
 Wire Wire Line
-	12450 6150 12700 6150
-Wire Wire Line
-	12700 6150 12900 6150
+	12450 6150 12900 6150
 Wire Wire Line
 	12450 6150 12450 6200
 Connection ~ 12700 6150
 Wire Wire Line
-	12900 6800 12900 6600
+	12900 6600 12900 6800
 Connection ~ 12900 6800
 Wire Wire Line
-	12700 7450 12700 7450
+	12100 7450 12700 7450
 $Comp
 L C C26
 U 1 1 59B7F394
 P 11200 6800
 F 0 "C26" H 11225 6900 50  0000 L CNN
 F 1 "1n" H 11225 6700 50  0000 L CNN
-F 2 "VNA:C_0603b" H 11238 6650 30  0001 C CNN
+F 2 "VNA:C_0402b" H 11238 6650 30  0001 C CNN
 F 3 "" H 11200 6800 60  0000 C CNN
 	1    11200 6800
 	0    1    1    0   
@@ -1374,10 +1311,10 @@ $EndComp
 Wire Wire Line
 	10800 7950 10800 8000
 $Comp
-L GND #PWR040
+L GND #PWR036
 U 1 1 59B84F12
 P 10800 8000
-F 0 "#PWR040" H 10800 7750 50  0001 C CNN
+F 0 "#PWR036" H 10800 7750 50  0001 C CNN
 F 1 "GND" H 10800 7850 50  0000 C CNN
 F 2 "" H 10800 8000 60  0000 C CNN
 F 3 "" H 10800 8000 60  0000 C CNN
@@ -1385,17 +1322,17 @@ F 3 "" H 10800 8000 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 3250 10400 3250
+	12950 3950 12400 3950
 $Comp
-L VCC #PWR041
+L VCC #PWR037
 U 1 1 59B8C676
-P 9850 3250
-F 0 "#PWR041" H 9850 3100 50  0001 C CNN
-F 1 "VCC" H 9850 3400 50  0000 C CNN
-F 2 "" H 9850 3250 50  0001 C CNN
-F 3 "" H 9850 3250 50  0001 C CNN
-	1    9850 3250
-	0    -1   -1   0   
+P 12950 3950
+F 0 "#PWR037" H 12950 3800 50  0001 C CNN
+F 1 "VCC" H 12950 4100 50  0000 C CNN
+F 2 "" H 12950 3950 50  0001 C CNN
+F 3 "" H 12950 3950 50  0001 C CNN
+	1    12950 3950
+	0    1    1    0   
 $EndComp
 $Comp
 L LED_Small_ALT D1
@@ -1427,10 +1364,10 @@ Connection ~ 7450 6000
 Wire Wire Line
 	7450 5300 7450 5200
 $Comp
-L GND #PWR042
+L GND #PWR038
 U 1 1 59B94312
 P 7450 5200
-F 0 "#PWR042" H 7450 4950 50  0001 C CNN
+F 0 "#PWR038" H 7450 4950 50  0001 C CNN
 F 1 "GND" H 7450 5050 50  0000 C CNN
 F 2 "" H 7450 5200 60  0000 C CNN
 F 3 "" H 7450 5200 60  0000 C CNN
@@ -1488,39 +1425,19 @@ Wire Wire Line
 	4450 3650 4450 3400
 Connection ~ 4450 3400
 Wire Wire Line
-	4450 3950 4450 4200
-Wire Wire Line
-	4450 4200 4450 4400
+	4450 3950 4450 4400
 Connection ~ 4450 4200
 Wire Wire Line
 	4450 4700 4450 4950
 Connection ~ 4450 4950
 Wire Wire Line
-	5300 4950 5450 4950
+	5300 4950 6250 4950
 Wire Wire Line
-	5450 4950 5700 4950
+	2300 3400 2950 3400
 Wire Wire Line
-	5700 4950 5950 4950
+	2300 4200 2950 4200
 Wire Wire Line
-	5950 4950 6250 4950
-Wire Wire Line
-	2300 3400 2700 3400
-Wire Wire Line
-	2700 3400 2900 3400
-Wire Wire Line
-	2900 3400 2950 3400
-Wire Wire Line
-	2300 4200 2700 4200
-Wire Wire Line
-	2700 4200 2900 4200
-Wire Wire Line
-	2900 4200 2950 4200
-Wire Wire Line
-	2300 4950 2700 4950
-Wire Wire Line
-	2700 4950 2900 4950
-Wire Wire Line
-	2900 4950 2950 4950
+	2300 4950 2950 4950
 Text Notes 7400 8300 0    60   ~ 0
 Coplanar waveguide with GND plane design rules\nOSH park 0.8mm board\ner = 4.6\nw = 0.82 mm\ns = 0.1 mm
 Text Label 9850 2450 2    60   ~ 0
@@ -1528,11 +1445,10 @@ CE
 Wire Wire Line
 	10200 7450 10800 7450
 Wire Wire Line
-	12100 6800 12900 6800
+	12900 6800 12100 6800
 Wire Wire Line
-	12900 6800 12900 6800
-Wire Wire Line
-	12700 7250 12700 7450
-Wire Wire Line
-	12100 7450 12700 7450
+	12700 7450 12700 7250
+NoConn ~ 10400 2850
+NoConn ~ 10400 2950
+NoConn ~ 10400 3250
 $EndSCHEMATC
