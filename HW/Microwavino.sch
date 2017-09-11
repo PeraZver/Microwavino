@@ -615,7 +615,7 @@ Text GLabel 4900 6550 0    49   Input ~ 0
 RFOUT_EN
 Text GLabel 7550 5900 2    49   Output ~ 0
 MUXOUT
-Text GLabel 7550 6000 2    49   Output ~ 0
+Text GLabel 7650 5550 2    49   Output ~ 0
 LD
 $Comp
 L Teensy3.2 U7
@@ -649,7 +649,7 @@ NoConn ~ 12400 1950
 NoConn ~ 12400 2050
 Text Label 9850 2350 2    60   ~ 0
 LE
-Text Label 9850 2750 2    60   ~ 0
+Text Label 12950 4450 0    60   ~ 0
 LD
 Text Label 9850 2650 2    60   ~ 0
 RFOUT_EN
@@ -675,7 +675,6 @@ NoConn ~ 12400 3750
 NoConn ~ 12400 4150
 NoConn ~ 12400 4250
 NoConn ~ 12400 4350
-NoConn ~ 12400 4450
 NoConn ~ 10400 3150
 NoConn ~ 10400 3350
 NoConn ~ 10400 3450
@@ -869,8 +868,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 5900 7550 5900
 Wire Wire Line
-	7400 6000 7550 6000
-Wire Wire Line
 	6450 4200 6450 5450
 Wire Wire Line
 	6650 3400 6650 5450
@@ -940,7 +937,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 2650 10400 2650
 Wire Wire Line
-	9850 2750 10400 2750
+	12950 4450 12400 4450
 Wire Wire Line
 	5300 3400 6650 3400
 Connection ~ 5950 3400
@@ -1360,7 +1357,6 @@ Wire Wire Line
 	7450 5500 7450 5550
 Wire Wire Line
 	7450 5850 7450 6000
-Connection ~ 7450 6000
 Wire Wire Line
 	7450 5300 7450 5200
 $Comp
@@ -1394,7 +1390,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 7450 3750 7550
 Text Label 3750 7000 0    60   ~ 0
-3V3_DIG
+3V3_PLL
 Text GLabel 3900 7550 2    49   Input ~ 0
 CE
 Wire Wire Line
@@ -1451,4 +1447,10 @@ Wire Wire Line
 NoConn ~ 10400 2850
 NoConn ~ 10400 2950
 NoConn ~ 10400 3250
+NoConn ~ 10400 2750
+Wire Wire Line
+	7450 6000 7400 6000
+Wire Wire Line
+	7450 5550 7650 5550
+Connection ~ 7450 5550
 $EndSCHEMATC
