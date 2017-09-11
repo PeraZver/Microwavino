@@ -1,3 +1,6 @@
 HW/Datasheets/
 HW/kicad*
 HW/_autosave*
+HW/*.bak
+HW/*-bak
+HW/*.bck
