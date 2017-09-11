@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source D:\Data\Microwavino\HW\Microwavino.sch)
-    (date "11.09.2017 15:33:03")
-    (tool "Eeschema 4.0.7")
+    (source D:/Elektronika/Microwavino/HW/Microwavino.sch)
+    (date "9/11/2017 10:59:08 PM")
+    (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title Microwavino)
@@ -155,7 +155,7 @@
       (tstamp 59B0EE74))
     (comp (ref U1)
       (value MIC5366)
-      (footprint VNA:SOT-23-5)
+      (footprint VNA:SOT-353_SC-70-5)
       (libsource (lib vna-cache) (part MIC5366))
       (sheetpath (names /) (tstamps /))
       (tstamp 59B0EE7D))
@@ -192,7 +192,7 @@
     (comp (ref U7)
       (value Teensy3.2)
       (footprint VNA:Teensy30_31_32_LC_modified)
-      (libsource (lib teensy) (part Teensy3.2))
+      (libsource (lib Microwavino-cache) (part Teensy3.2))
       (sheetpath (names /) (tstamps /))
       (tstamp 59B2C6E1))
     (comp (ref C16)
@@ -439,7 +439,7 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib teensy) (part Teensy3.2)
+    (libpart (lib Microwavino-cache) (part Teensy3.2)
       (fields
         (field (name Reference) U)
         (field (name Value) Teensy3.2))
@@ -499,12 +499,12 @@
         (pin (num 53) (name D+) (type BiDi))
         (pin (num 54) (name D-) (type BiDi)))))
   (libraries
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical vna-cache)
-      (uri D:\Data\Microwavino\HW\vna-cache.lib))
-    (library (logical teensy)
-      (uri D:\Data\Microwavino\HW\kicad_teensy-master\teensy.lib)))
+      (uri D:\Elektronika\Microwavino\HW\vna-cache.lib))
+    (library (logical Microwavino-cache)
+      (uri D:\Elektronika\Microwavino\HW\Microwavino-cache.lib))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib")))
   (nets
     (net (code 1) (name RFOUT_EN)
       (node (ref U7) (pin 8))
