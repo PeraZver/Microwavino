@@ -1484,4 +1484,6 @@ Wire Wire Line
 	10300 2750 10300 2850
 Connection ~ 10300 2850
 NoConn ~ 10400 2650
+Text Notes 2030 6830 0    60   ~ 0
+Replaced because RS doesn't have them:\nMIC5366 with TLV70018 \nASTXR-12-19.2MHz with ASD3-24.000MHz-EC
 $EndSCHEMATC

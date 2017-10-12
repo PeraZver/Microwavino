@@ -11,4 +11,11 @@ HW/*-bak
 HW/*.bck
 HW/*.swp
 HW/*.xml
+HW/*.pdf
+HW/*.pos
+HW/*.html
+HW/*.csv
+Doc/
+
+SW/Registers
 

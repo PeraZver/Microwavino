@@ -1,0 +1,11 @@
+Qty,partname,description,lib
+0,"ASTXR-12","","vna-cache"
+0,"C","Unpolarized capacitor","device"
+0,"FILTER","","vna-cache"
+0,"LED_Small_ALT","LED, small symbol, alternativ symbol","device"
+0,"MAX2870","","vna-cache"
+0,"MCP1824T","","vna-cache"
+0,"MIC5366","","vna-cache"
+0,"R","Resistor","device"
+0,"SMA","","vna-cache"
+0,"Teensy3.2","","Microwavino-cache"
