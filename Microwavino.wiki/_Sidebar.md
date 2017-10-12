@@ -1,5 +1,0 @@
-* [[Home|Home]]
-* [[Hardware|Hardware]]
-* [[Software|Software]]
-  * [[Firmware|Firmware]]
-  * [[PC Software|PC Software]]
