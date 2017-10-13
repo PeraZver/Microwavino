@@ -1,4 +1,4 @@
-#include <MAX2871.h>
+#include "MAX2871.h"
 
 //Setting temperature read and MUX readout
 uint32_t regInitValues[6] = { EN_INT | N_SET | F_SET | REG_0,

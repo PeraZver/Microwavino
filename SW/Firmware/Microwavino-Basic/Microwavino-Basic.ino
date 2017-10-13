@@ -4,20 +4,17 @@
  *
  *  This example configures sinthesyzer MAX2871 over SPI.
  *  CLK is pin 13
-  * DATA IN (MISO) is pin 12
-  * DATA OUT (MOSI) is pin 11
-  * LE (SS) for MAX2871 is pin 5
-  * CE for MAX2871 is pin 4
-  * RF EN is pin 7
-
+ * DATA IN (MISO) is pin 12
+ * DATA OUT (MOSI) is pin 11
+ * LE (SS) for MAX2871 is pin 5
+ * CE for MAX2871 is pin 4
+ * RF EN is pin 7
 
 Pero, September 2017
 
 */
 #include <SPI.h>
-#include <ADC.h>
 #include "MAX2871.h"
-#include "MWtx.h"
 
 // user input
 char incomingChar = 0;  //Serial input
@@ -41,8 +38,6 @@ void setup() {
   Serial.println("Pero, September 2017");
   Serial.println(" ");
   Serial.println(" ");
-
-  MWPins(); // Set pins for all components
 
   // initialize SPI:
   SPI.begin();
@@ -71,7 +66,6 @@ void loop() {
 
       case 'r':
          MAX2871_Read(Serial.read());   // type t for temperature or v for VCO tuning voltage
-         RSSI_Read();
          break;
 
       case 'g':
@@ -81,10 +75,6 @@ void loop() {
 
       case 'p':
           MAX2871_RFA_SelectPower(Serial.read());
-          break;
-
-      case 'f':
-          SelectFilter(Serial.read());
           break;
 
       case 'D':
@@ -140,15 +130,6 @@ void loop() {
 
   delay(1000);
 }
-
-
-// If you enable interrupts make sure to call readSingle() to clear the interrupt.
-void adc0_isr() {
-        adc->adc0->readSingle();
-}
-
-
-
 
 uint16_t String2Int(){
   /* converts stream of serial input characters to integer.
