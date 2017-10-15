@@ -10,18 +10,17 @@ Use following commands:
   * `e` - activate RF output
   * `d` - deactivate RF output
   * `px` - sets the power of RF output, where {x} can be 1,2,3 or 4.
-  * `fx` - selects the filter, where {x} can be 1,2,3 or 4.
 
-  To change frequency settings, use following commands:
-   * `N x` - set integer divider where x is between 16 and 65535.
-   * `M x` - set fractional modulus where x is between 2 and 4095.
-   * `F x` - set fractional divider where x is between 1 and M.
-   * `R x` - set reference divider where x is between 1 and 1023.
-   * `D x` - set output divider where x is between 1 and 7.
+ To change frequency settings, use following commands:
+  * `N x` - set integer divider where x is between 16 and 65535.
+  * `M x` - set fractional modulus where x is between 2 and 4095.
+  * `F x` - set fractional divider where x is between 1 and M.
+  * `R x` - set reference divider where x is between 1 and 1023.
+  * `D x` - set output divider where x is between 1 and 7.
 
  Frequency can be easily set by two functions
-   * `FINT x` - set sets frequency x in integer mode
-   * `FFRA x` - set sets frequency x in fractional mode
+  * `FINT x` - set sets frequency x in integer mode
+  * `FFRAC x` - set sets frequency x in fractional mode
 
  Special spice is function `sweep`, that enables sweep of every parameter (but will work only with F and N):
   * `sweep x a b dt` - x can be N or F, a is lower limit, b is the upper and dt is time resolution in ms.

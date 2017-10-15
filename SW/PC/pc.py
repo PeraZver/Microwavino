@@ -17,7 +17,7 @@ import bitstring as bit
 #import time
 
 
-f_REF = 19.2  # Reference frequency
+f_REF = 24  # Reference frequency
 params = {'R':1, 'N':200, 'F':0.0, 'M':100, 'D':5}  # frequency settings parameters
 f_PDF = f_REF/params['R'] 
 
@@ -233,7 +233,7 @@ def main():
     print "Pero, September 2017"
     
     try:
-        ser = configure_serial('COM8')
+        ser = configure_serial('COM13')
         if not ser.isOpen():
             raise Exception
         else:
@@ -307,7 +307,6 @@ def read_help(*args):
         e - activate RF output
         d - deactivate RF output
         px - sets the power of RF output, where {x} can be 1,2,3 or 4.
-        fx - selects the filter, where {x} can be 1,2,3 or 4.
         
         To change frequency settings, use following commands:
         
