@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 #! python
 """
-PC Interface with my Teensy/MAX2871 based 
-microwave transmitter via serial port. 
+PC Interface with my Microwavino via serial port. 
 
 
 Created on Wed Sep 06 22:33:43 2017
 
-@author: Pero_2912
+@author: Helentronica
 """
 import serial
 import sys
 import bitstring as bit
+import argparse
 #import argparse
 #import ast
 #import time
@@ -227,13 +227,20 @@ def command_parser(data, ser):
     
     
 def main():
+    parser = argparse.ArgumentParser(description="Microwavino Python Interface")
     print "Microwavino Interface"
     print "v1.1"
     print "type 'help [command]' if not sure how to proceed\n"
     print "Pero, September 2017"
+    parser.add_argument('port',metavar='Port', help='Serial port')
+    args = parser.parse_args()
+    
+    if len(sys.argv)<2:
+        print "Give serial port address as a command line argument."
+        exit()
     
     try:
-        ser = configure_serial('COM13')
+        ser = configure_serial(args.port)
         if not ser.isOpen():
             raise Exception
         else:
